@@ -2,7 +2,7 @@ import React,{useEffect,useState}from"react";
 import{createRoot}from"react-dom/client";
 import{MapContainer,TileLayer,CircleMarker,Popup}from"react-leaflet";
 import"leaflet/dist/leaflet.css";import"./styles.css";
-const API=import.meta.env.VITE_API_URL||"http://localhost:8000";
+const API=import.meta.env.VITE_API_URL||"https://national-big-data-project.onrender.com/";
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const cities={Lucknow:{state:"Uttar Pradesh",latitude:26.8467,longitude:80.9462},Guwahati:{state:"Assam",latitude:26.1445,longitude:91.7362},Jaipur:{state:"Rajasthan",latitude:26.9124,longitude:75.7873},Delhi:{state:"Delhi",latitude:28.6139,longitude:77.2090},Mumbai:{state:"Maharashtra",latitude:19.076,longitude:72.8777}};
 function Badge({status}){let s=(status||"pending").toLowerCase();const label=s==="unverified"?"FALSE / CONTRADICTED":s.toUpperCase();return <span className={`badge ${s}`}>{label}</span>}
