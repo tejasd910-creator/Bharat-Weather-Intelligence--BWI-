@@ -9,6 +9,7 @@ const API =
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const cities = {
   Lucknow: { state: "Uttar Pradesh", latitude: 26.8467, longitude: 80.9462 },
+  Kanpur: { state: "Uttar Pradesh", latitude: 26.4499, longitude: 80.3319 },
   Guwahati: { state: "Assam", latitude: 26.1445, longitude: 91.7362 },
   Jaipur: { state: "Rajasthan", latitude: 26.9124, longitude: 75.7873 },
   Delhi: { state: "Delhi", latitude: 28.6139, longitude: 77.209 },

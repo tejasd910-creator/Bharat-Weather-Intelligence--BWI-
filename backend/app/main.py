@@ -18,6 +18,8 @@ _imd_refs=[
     ("IMD-LKO","Lucknow","Uttar Pradesh",26.8467,80.9462,31.4,91.0,82.0,28.0,1004.2),
     ("IMD-GHY","Guwahati","Assam",26.1445,91.7362,29.1,94.0,96.0,31.0,1002.1),
     ("IMD-JAI","Jaipur","Rajasthan",26.9124,75.7873,34.0,68.0,24.0,42.0,1001.8),
+    ("IMD-KNP","Kanpur","Uttar Pradesh",26.4499,80.3319,40.0,60.0,29.0,42.0,1000.8),
+    ("IMD-DEL","Delhi","Delhi",28.6139,77.2090,39.0,61.0,25.0,40.0,1001.8),
 ]
 for _station,_city,_state,_lat,_lon,_temp,_hum,_rain,_wind,_press in _imd_refs:
     if not db.query(WeatherObservation).filter(WeatherObservation.station==_station).first():
