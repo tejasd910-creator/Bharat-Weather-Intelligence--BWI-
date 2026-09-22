@@ -16,7 +16,7 @@ export default function About() {
         <div className="card p-6">
           <h2 className="font-display text-xl font-bold text-slate-900">Our mission</h2>
           <p className="mt-3 text-sm leading-relaxed text-slate-600">
-            The National Weather Big Data Analytics Platform fuses official observations, Open-Meteo forecasts,
+            The Bharat Weather Intelligence fuses official observations, Open-Meteo forecasts,
             news wires, social streams and citizen reports into a single, verifiable picture of weather risk
             across India. We help disaster managers, journalists and the public act minutes — not hours — earlier.
           </p>
