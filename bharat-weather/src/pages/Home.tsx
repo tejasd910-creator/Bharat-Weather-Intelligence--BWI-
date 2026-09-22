@@ -76,9 +76,9 @@ export default function Home() {
               Reliable
             </div>
             <h1 className="font-display mt-5 text-4xl font-extrabold leading-[1.1] tracking-tight text-slate-900 sm:text-5xl">
-              National Weather
+              Bharat Weather
               <br />
-              <span className="text-blue-600">Intelligence Platform</span>
+              <span className="text-blue-600">Intelligence</span>
             </h1>
             <p className="mt-4 max-w-md text-[15px] leading-relaxed text-slate-500">
               Real-time data from multiple sources, AI-powered analytics and interactive maps for accurate

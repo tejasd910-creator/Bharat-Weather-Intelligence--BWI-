@@ -36,9 +36,9 @@ export function Logo({ compact = false }: { compact?: boolean }) {
       {!compact && (
         <div className="leading-tight">
           <div className="font-display text-[15px] font-bold tracking-tight text-slate-900">
-            National Weather
+            Bharat Weather
           </div>
-          <div className="text-[11px] font-medium text-slate-500">Big Data Analytics Platform</div>
+          <div className="text-[11px] font-medium text-slate-500 ml-0">Intelligence</div>
         </div>
       )}
     </div>
